@@ -13,5 +13,5 @@ shell_memory_destory(); --> COMMENT/UNCOMMENT HERE
 ##How To run:
 
 - gcc -c shell.c interpreter.c shellmemory.c kernel.c cpu.c pcb.c ram.c memorymanager.c main.c
-_ gcc -o cemOS shell.o interpreter.o shellmemory.o kernel.o cpu.o pcb.o ram.o memorymanager.o main.o
+- gcc -o cemOS shell.o interpreter.o shellmemory.o kernel.o cpu.o pcb.o ram.o memorymanager.o main.o
 - ./cemOS < TESTFILE.txt
