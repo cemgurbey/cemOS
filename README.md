@@ -1,8 +1,8 @@
 # cemOS
 
-Authered by Firat Cem Gurbey
+Welcome to CemOS, the simple but the efficient operating System!
 
-you can run the cemOS on any MacOs/Linux command line!
+CemOS can be run on any MacOs/Linux command line!
 
 
 ## Diclaimer:
@@ -16,3 +16,5 @@ shell_memory_destory(); --> COMMENT/UNCOMMENT HERE
 - gcc -c shell.c interpreter.c shellmemory.c kernel.c cpu.c pcb.c ram.c memorymanager.c main.c
 - gcc -o cemOS shell.o interpreter.o shellmemory.o kernel.o cpu.o pcb.o ram.o memorymanager.o main.o
 - ./cemOS < TESTFILE.txt
+
+author : Firat Cem Gurbey
